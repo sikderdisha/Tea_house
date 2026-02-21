@@ -52,7 +52,7 @@
     </section>
 
     <!-- feature section  -->
-     <section class="container mx-auto border border-red-600">
+     <section class="container mx-auto">
         <!-- header  -->
          <div class="max-w-[95%] mx-auto text-center">
             <h1 class="text-[28px] md:text-[45px] font-bold pt-[55px] md:pt-[65px]">Our Featured Products</h1>
@@ -88,25 +88,38 @@
      </section>
 
      <!-- presentation section  -->
-      <section class="container mx-auto my-[30px]">
+      <section class="container mx-auto my-[30px] grid grid-cols-1 
+      sm:grid-cols-1 md:grid-cols-2 gap-[50px] border border-red-800 ">
     <!-- left div  -->
-         <div>
+         <div class="grid grid-cols-2 grid-rows-3 gap-[30px] ml-[10px]">
+          <!-- grid 1  -->
+          <div class="bg-linear-to-r from-[#FF0000] to-[#FF8938] rounded-[10px] opacity-10"></div>
+          <!-- grid 2  -->
+          <div class="row-span-2 grid place-items-center bg-[#fdedcd] rounded-[10px]">
+            <img src="./images/fresh-1.png" alt="" class="w-[140px] h-[250px]">
+          </div>
+          <!-- grid 3 -->
+          <div class="row-span-2 grid place-items-center bg-[#e4f4d4] rounded-[10px] ">
+            <img src="./images/fresh-2.png" alt="" class="w-[140px] h-[250px]">
+          </div>
+          <!-- grid 4 -->
+          <div class="bg-linear-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-[10px]"></div>
 
          </div>
 
     <!-- right div  -->
-         <div>
+         <div class="ml-[10px]">
           <h1 class="text-[28px] md:text-[45px] font-extrabold pb-[10px]">Great Tea, Freshly Presented</h1>
 
           <p class="text-[#777777] text-[16px] leading-[28px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
 
           <h4 class="font-extrabold text-[20px] py-[10px] ">Unique Taste</h4>
 
-          <p class="text-[#777777] text-[16px] leading-[28px]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          <p class="text-[#777777] text-[16px] leading-[28px]">A Unique and different style from other teapots gives a <br>luxurious and minimalist impression</p>
 
           <h4 class="font-extrabold text-[20px] py-[10px]">Premium Quality</h4>
 
-          <p class="text-[#777777] text-[16px] leading-[28px]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+          <p class="text-[#777777] text-[16px] leading-[28px]">Premium Quality that makes tea more <br> elegant and more durable when you use it.</p>
 
          </div>
     
